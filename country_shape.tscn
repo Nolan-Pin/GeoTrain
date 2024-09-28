@@ -1,6 +1,9 @@
-[gd_scene format=3 uid="uid://bo57jawq5a82t"]
+[gd_scene load_steps=2 format=3 uid="uid://bo57jawq5a82t"]
+
+[ext_resource type="Script" path="res://country_shape.gd" id="1_q63hf"]
 
 [node name="CountryShape" type="CanvasLayer"]
+script = ExtResource("1_q63hf")
 
 [node name="Country" type="Sprite2D" parent="."]
 position = Vector2(960, 270)
