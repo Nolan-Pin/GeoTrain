@@ -1,0 +1,55 @@
+[gd_scene format=3 uid="uid://bo57jawq5a82t"]
+
+[node name="CountryShape" type="CanvasLayer"]
+
+[node name="Country" type="Sprite2D" parent="."]
+position = Vector2(960, 270)
+scale = Vector2(0.5, 0.5)
+
+[node name="Choice1" type="Button" parent="."]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 192.0
+offset_top = -248.0
+offset_right = 896.0
+offset_bottom = -56.0
+grow_vertical = 0
+size_flags_vertical = 8
+autowrap_mode = 2
+
+[node name="Choice2" type="Button" parent="."]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 192.0
+offset_top = -504.0
+offset_right = 896.0
+offset_bottom = -312.0
+grow_vertical = 0
+size_flags_vertical = 8
+autowrap_mode = 2
+
+[node name="Choice3" type="Button" parent="."]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 1024.0
+offset_top = -504.0
+offset_right = 1728.0
+offset_bottom = -312.0
+grow_vertical = 0
+size_flags_vertical = 8
+autowrap_mode = 2
+
+[node name="Choice4" type="Button" parent="."]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 1024.0
+offset_top = -248.0
+offset_right = 1728.0
+offset_bottom = -56.0
+grow_vertical = 0
+size_flags_vertical = 8
+autowrap_mode = 2
