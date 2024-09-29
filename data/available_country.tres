@@ -1,7 +1,8 @@
-[gd_resource type="Resource" script_class="AvailableCountry" load_steps=5 format=3 uid="uid://bsn8rmnr5dk7l"]
+[gd_resource type="Resource" script_class="AvailableCountry" load_steps=6 format=3 uid="uid://bsn8rmnr5dk7l"]
 
 [ext_resource type="Script" path="res://data/available_country.gd" id="1_7ly4u"]
 [ext_resource type="Script" path="res://data/country_attributes.gd" id="1_pftdq"]
+[ext_resource type="Texture2D" uid="uid://cn5ha65pirnkf" path="res://img/fr.png" id="2_w1n6r"]
 
 [sub_resource type="Resource" id="Resource_el607"]
 script = ExtResource("1_pftdq")
@@ -9,6 +10,7 @@ en_name = "france"
 fr_name = "france"
 shape_path = "fr.png"
 country_code = "fr"
+image = ExtResource("2_w1n6r")
 
 [sub_resource type="Resource" id="Resource_4olry"]
 script = ExtResource("1_pftdq")
