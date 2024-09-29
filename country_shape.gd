@@ -9,7 +9,7 @@ var not_found: int
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	countries = load("res://data/available_country.tres")
-	start_round(0)
+	start_round(randi() % countries.available.size())
 	pass # Replace with function body.
 
 
