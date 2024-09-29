@@ -1,6 +1,7 @@
 extends CanvasLayer
 
 const nb_of_guess = 4
+var solution: CountryAttributes
 var countries: AvailableCountry
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -14,9 +15,11 @@ func _process(delta: float) -> void:
 	pass
 
 func start_round(country_index: int) -> void:
-	$Country.set_texture(countries.available[country_index].image)
-	var choices: Array[String] = [countries.available[country_index].en_name]
+	solution = countries.available[country_index]
 	
+	$Country.set_texture(solution.image)
+	
+	var choices: Array[String] = [solution.en_name]
 	for i in range(nb_of_guess-1):
 		var random_country = countries.available[randi() % countries.available.size()]
 		choices.append(random_country.en_name)
