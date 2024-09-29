@@ -22,7 +22,7 @@ func start_round(country_index: int) -> void:
 		choices.append(random_country.en_name)
 	
 	choices.shuffle()
-	$Choice1.text = choices[0]
-	$Choice2.text = choices[1]
-	$Choice3.text = choices[2]
-	$Choice4.text = choices[3]
+	$Choice1.text = choices[0].capitalize()
+	$Choice2.text = choices[1].capitalize()
+	$Choice3.text = choices[2].capitalize()
+	$Choice4.text = choices[3].capitalize()
