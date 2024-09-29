@@ -14,9 +14,9 @@ anchors_preset = 2
 anchor_top = 1.0
 anchor_bottom = 1.0
 offset_left = 320.0
-offset_top = -184.0
+offset_top = -376.0
 offset_right = 896.0
-offset_bottom = -56.0
+offset_bottom = -248.0
 grow_vertical = 0
 size_flags_vertical = 8
 theme_override_font_sizes/font_size = 100
@@ -26,9 +26,9 @@ autowrap_mode = 2
 anchors_preset = 2
 anchor_top = 1.0
 anchor_bottom = 1.0
-offset_left = 320.0
+offset_left = 1024.0
 offset_top = -376.0
-offset_right = 896.0
+offset_right = 1600.0
 offset_bottom = -248.0
 grow_vertical = 0
 size_flags_vertical = 8
@@ -39,10 +39,10 @@ autowrap_mode = 2
 anchors_preset = 2
 anchor_top = 1.0
 anchor_bottom = 1.0
-offset_left = 1024.0
-offset_top = -376.0
-offset_right = 1600.0
-offset_bottom = -248.0
+offset_left = 320.0
+offset_top = -184.0
+offset_right = 896.0
+offset_bottom = -56.0
 grow_vertical = 0
 size_flags_vertical = 8
 theme_override_font_sizes/font_size = 100
@@ -121,3 +121,8 @@ theme_override_font_sizes/font_size = 80
 text = "0/20"
 horizontal_alignment = 2
 vertical_alignment = 1
+
+[connection signal="pressed" from="Choice1" to="." method="choice_made" binds= [1]]
+[connection signal="pressed" from="Choice2" to="." method="choice_made" binds= [2]]
+[connection signal="pressed" from="Choice3" to="." method="choice_made" binds= [3]]
+[connection signal="pressed" from="Choice4" to="." method="choice_made" binds= [4]]
