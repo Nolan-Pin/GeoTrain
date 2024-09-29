@@ -1,8 +1,11 @@
 extends CanvasLayer
 
-
+const nb_of_guess = 4
+var countries: AvailableCountry
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	countries = load("res://data/available_country.tres")
+	start_round(0)
 	pass # Replace with function body.
 
 
@@ -10,7 +13,16 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	pass
 
-func load_country_list():
-	var file = FileAccess.open("res://data/country_attributes.tres", FileAccess.READ)
-	var content = file.get_as_text()
-	return content
+func start_round(country_index: int) -> void:
+	$Country.set_texture(countries.available[country_index].image)
+	var choices: Array[String] = [countries.available[country_index].en_name]
+	
+	for i in range(nb_of_guess-1):
+		var random_country = countries.available[randi() % countries.available.size()]
+		choices.append(random_country.en_name)
+	
+	choices.shuffle()
+	$Choice1.text = choices[0]
+	$Choice2.text = choices[1]
+	$Choice3.text = choices[2]
+	$Choice4.text = choices[3]
