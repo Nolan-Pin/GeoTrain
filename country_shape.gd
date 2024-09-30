@@ -1,6 +1,8 @@
 extends CanvasLayer
 
 const nb_of_guess = 4
+const nb_of_choices: int = 4
+
 var solution: CountryAttributes
 var countries: AvailableCountry
 var round: int
@@ -18,24 +20,19 @@ func _process(delta: float) -> void:
 	pass
 
 func start_round(country_index: int) -> void:
-	solution = countries.available[country_index]
 	round = 0
 	found = 0
 	not_found = 0
 	update_score()
 	
-	$Country.set_texture(solution.image)
-	
-	var choices: Array[String] = [solution.en_name]
-	for i in range(nb_of_guess-1):
-		var random_country = countries.available[randi() % countries.available.size()]
-		choices.append(random_country.en_name)
-	
+	var choices: Array[CountryAttributes] = pick_n_element(countries.available, nb_of_choices)
+	solution = choices[0]
 	choices.shuffle()
-	$Choice1.text = choices[0].capitalize()
-	$Choice2.text = choices[1].capitalize()
-	$Choice3.text = choices[2].capitalize()
-	$Choice4.text = choices[3].capitalize()
+	$Choice1.text = choices[0].en_name.capitalize()
+	$Choice2.text = choices[1].en_name.capitalize()
+	$Choice3.text = choices[2].en_name.capitalize()
+	$Choice4.text = choices[3].en_name.capitalize()
+	$Country.set_texture(solution.image)
 
 
 func end_round(success: bool) -> void:
@@ -55,3 +52,14 @@ func update_score() -> void:
 	$Scoring/Progress.text = str(round) + "/" + str(nb_of_guess)
 	$Scoring/Found.text = str(found)
 	$Scoring/NotFound.text = str(not_found)
+
+func pick_n_element(array: Array[CountryAttributes], n: int) -> Array[CountryAttributes]:
+	var selection: Array[CountryAttributes]
+	selection.push_back(array.pick_random())
+	for i in range(n-1):
+		var random_element = array.pick_random()
+		while (random_element in selection):
+			random_element = array.pick_random()
+		selection.push_back(random_element)
+
+	return selection
