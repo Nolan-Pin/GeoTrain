@@ -1,6 +1,9 @@
 extends CanvasLayer
 
-const nb_of_guess = 4
+signal round_over(win: bool)
+signal game_over
+
+const nb_of_guess: int = 20
 const nb_of_choices: int = 4
 
 var solution: CountryAttributes
@@ -11,20 +14,24 @@ var not_found: int
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	countries = load("res://data/available_country.tres")
-	start_round(randi() % countries.available.size())
-	pass # Replace with function body.
+	round_over.connect(end_round)
+	start_game()
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	pass
 
-func start_round(country_index: int) -> void:
+
+func start_game() -> void:
 	round = 0
 	found = 0
 	not_found = 0
 	update_score()
-	
+	start_round()
+
+
+func start_round() -> void:
 	var choices: Array[CountryAttributes] = pick_n_element(countries.available, nb_of_choices)
 	solution = choices[0]
 	choices.shuffle()
@@ -37,16 +44,19 @@ func start_round(country_index: int) -> void:
 
 func end_round(success: bool) -> void:
 	round += 1
-	if (success):
-		found += 1
-	else:
-		not_found += 1
+	found += int(success)
+	not_found += int(not success)
 	update_score()
+	
+	if (round >= nb_of_guess):
+		game_over.emit()
+	else:
+		start_round()
 
 
 func choice_made(selected: int) -> void:
 	var button: Button = find_child("Choice" + str(selected))
-	end_round(button.text.to_lower() == solution.en_name)
+	round_over.emit(button.text.to_lower() == solution.en_name)
 
 func update_score() -> void:
 	$Scoring/Progress.text = str(round) + "/" + str(nb_of_guess)
