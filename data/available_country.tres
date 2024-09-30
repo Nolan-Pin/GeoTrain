@@ -306,7 +306,7 @@ image = ExtResource("37_ax4u7")
 
 [sub_resource type="Resource" id="Resource_8tk4l"]
 script = ExtResource("1_pftdq")
-en_name = "kingdom of the netherlands"
+en_name = "netherlands"
 fr_name = "pays-bas"
 country_code = "nl"
 image = ExtResource("38_s1xq6")
