@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://bo57jawq5a82t"]
 
-[ext_resource type="Script" path="res://country_shape.gd" id="1_q63hf"]
+[ext_resource type="Script" path="res://guess_the_shape/country_shape.gd" id="1_q63hf"]
 
 [node name="CountryShape" type="CanvasLayer"]
 script = ExtResource("1_q63hf")

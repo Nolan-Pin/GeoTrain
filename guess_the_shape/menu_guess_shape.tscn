@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://d00rgjy08ydkx"]
+
+[ext_resource type="Script" path="res://guess_the_shape/menu_guess_shape.gd" id="1_asmxm"]
+[ext_resource type="PackedScene" uid="uid://bo57jawq5a82t" path="res://guess_the_shape/country_shape.tscn" id="2_vpxv5"]
+
+[node name="MenuGuessShape" type="Node"]
+script = ExtResource("1_asmxm")
+
+[node name="CountryShape" parent="." instance=ExtResource("2_vpxv5")]
