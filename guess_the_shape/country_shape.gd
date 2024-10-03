@@ -1,4 +1,6 @@
-extends CanvasLayer
+extends Node
+
+class_name CountryShape
 
 signal round_over(win: bool)
 signal game_over

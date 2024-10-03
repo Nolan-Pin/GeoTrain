@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://guess_the_shape/country_shape.gd" id="1_q63hf"]
 
-[node name="CountryShape" type="CanvasLayer"]
+[node name="CountryShape" type="Node"]
 script = ExtResource("1_q63hf")
 
 [node name="Country" type="Sprite2D" parent="."]
