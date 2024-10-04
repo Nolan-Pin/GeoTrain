@@ -14,7 +14,7 @@ func _process(delta: float) -> void:
 
 func start_game() -> void:
 	add_child(game_instance)
-	game_instance.start_game()
+	game_instance.start_game(int($HUD/NumberRound.text))
 	$HUD.hide()
 
 func game_ended(score: int) -> void:

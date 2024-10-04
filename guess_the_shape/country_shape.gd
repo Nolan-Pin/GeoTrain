@@ -5,7 +5,7 @@ class_name CountryShape
 signal round_over(win: bool)
 signal game_over(point: int)
 
-const nb_of_guess: int = 20
+const DEFAULT_ROUND: int = 20
 const nb_of_choices: int = 4
 
 var solution: CountryAttributes
@@ -13,6 +13,7 @@ var countries: AvailableCountry
 var round: int
 var found: int
 var not_found: int
+var nb_of_guess: int
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	countries = load("res://data/available_country.tres")
@@ -24,10 +25,11 @@ func _process(delta: float) -> void:
 	pass
 
 
-func start_game() -> void:
+func start_game(nb_round: int) -> void:
 	round = 0
 	found = 0
 	not_found = 0
+	nb_of_guess = nb_round if nb_round != 0 else DEFAULT_ROUND
 	update_score()
 	start_round()
 
