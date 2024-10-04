@@ -17,7 +17,6 @@ var not_found: int
 func _ready() -> void:
 	countries = load("res://data/available_country.tres")
 	round_over.connect(end_round)
-	start_game()
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
