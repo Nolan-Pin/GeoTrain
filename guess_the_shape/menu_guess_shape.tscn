@@ -75,4 +75,104 @@ placeholder_text = "###"
 alignment = 1
 max_length = 3
 
+[node name="Score" type="CanvasLayer" parent="."]
+layer = 2
+
+[node name="bg_outline" type="ColorRect" parent="Score"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -480.0
+offset_top = -276.0
+offset_right = 480.0
+offset_bottom = 276.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="background" type="ColorRect" parent="Score"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -472.0
+offset_top = -268.0
+offset_right = 472.0
+offset_bottom = 268.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.385493, 0.385492, 0.385492, 1)
+
+[node name="GameOver" type="Label" parent="Score"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -418.5
+offset_top = -244.0
+offset_right = 418.5
+offset_bottom = 92.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 80
+text = "Game over !
+Your final score is:
+out of"
+horizontal_alignment = 1
+
+[node name="Close" type="Button" parent="Score"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -128.0
+offset_top = 124.0
+offset_right = 129.0
+offset_bottom = 242.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 80
+text = "Close"
+
+[node name="Score" type="Label" parent="Score"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -452.0
+offset_top = -18.0
+offset_right = -135.0
+offset_bottom = 92.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 0
+theme_override_colors/font_color = Color(0.103744, 0.103744, 0.103744, 1)
+theme_override_font_sizes/font_size = 80
+text = "##"
+horizontal_alignment = 2
+
+[node name="OutOf" type="Label" parent="Score"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 143.0
+offset_top = -17.0
+offset_right = 459.0
+offset_bottom = 93.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 0
+theme_override_colors/font_color = Color(0.103744, 0.103744, 0.103744, 1)
+theme_override_font_sizes/font_size = 80
+text = "##"
+
 [connection signal="pressed" from="HUD/Start" to="." method="start_game"]
+[connection signal="pressed" from="Score/Close" to="." method="_on_close_pressed"]

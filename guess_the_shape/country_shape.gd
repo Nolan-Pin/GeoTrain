@@ -3,7 +3,7 @@ extends Node
 class_name CountryShape
 
 signal round_over(win: bool)
-signal game_over(point: int)
+signal game_over(point: int, total: int)
 
 const DEFAULT_ROUND: int = 20
 const nb_of_choices: int = 4
@@ -52,7 +52,7 @@ func end_round(success: bool) -> void:
 	update_score()
 	
 	if (round >= nb_of_guess):
-		game_over.emit(found)
+		game_over.emit(found, nb_of_guess)
 	else:
 		start_round()
 
