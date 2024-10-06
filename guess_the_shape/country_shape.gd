@@ -42,7 +42,7 @@ func start_round() -> void:
 	$Choice2.text = choices[1].en_name.capitalize()
 	$Choice3.text = choices[2].en_name.capitalize()
 	$Choice4.text = choices[3].en_name.capitalize()
-	$Country.set_texture(solution.image)
+	$Country.set_texture(load(solution.path))
 
 
 func end_round(success: bool) -> void:

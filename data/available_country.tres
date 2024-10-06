@@ -1,63 +1,13 @@
-[gd_resource type="Resource" script_class="AvailableCountry" load_steps=101 format=3 uid="uid://bsn8rmnr5dk7l"]
+[gd_resource type="Resource" script_class="AvailableCountry" load_steps=52 format=3 uid="uid://bsn8rmnr5dk7l"]
 
 [ext_resource type="Script" path="res://data/available_country.gd" id="1_7ly4u"]
 [ext_resource type="Script" path="res://data/country_attributes.gd" id="1_pftdq"]
-[ext_resource type="Texture2D" uid="uid://mhnh23fv7ero" path="res://img/ad.png" id="2_6xw2e"]
-[ext_resource type="Texture2D" uid="uid://cn5ha65pirnkf" path="res://img/fr.png" id="2_w1n6r"]
-[ext_resource type="Texture2D" uid="uid://btsmvxoeveoc8" path="res://img/se.png" id="3_3qv0i"]
-[ext_resource type="Texture2D" uid="uid://b76k7vmfhpq8a" path="res://img/al.png" id="3_wnm0d"]
-[ext_resource type="Texture2D" uid="uid://dw2gjkmh7ls4v" path="res://img/at.png" id="4_ajrls"]
-[ext_resource type="Texture2D" uid="uid://bycf6c8pgu873" path="res://img/ax.png" id="5_fc1om"]
-[ext_resource type="Texture2D" uid="uid://b0rf1fyde16bs" path="res://img/ba.png" id="6_t66uc"]
-[ext_resource type="Texture2D" uid="uid://c463hb44b2xj8" path="res://img/be.png" id="7_f5gi3"]
-[ext_resource type="Texture2D" uid="uid://c8y3ncgpaktq0" path="res://img/bg.png" id="8_wttjl"]
-[ext_resource type="Texture2D" uid="uid://cfp6hv47q2a0l" path="res://img/by.png" id="9_54aa3"]
-[ext_resource type="Texture2D" uid="uid://b1tgoujuonfs2" path="res://img/ch.png" id="10_27gcy"]
-[ext_resource type="Texture2D" uid="uid://jpjethdlicq7" path="res://img/cz.png" id="11_b83rf"]
-[ext_resource type="Texture2D" uid="uid://dexmd6w1rjkhf" path="res://img/de.png" id="12_8rfe7"]
-[ext_resource type="Texture2D" uid="uid://dssibcawtnwms" path="res://img/dk.png" id="13_pmeu5"]
-[ext_resource type="Texture2D" uid="uid://bsmom8ikyis5n" path="res://img/ee.png" id="14_vs5jp"]
-[ext_resource type="Texture2D" uid="uid://vvbeabihtg01" path="res://img/es.png" id="15_goeqt"]
-[ext_resource type="Texture2D" uid="uid://cr0o5buv8mvgq" path="res://img/fi.png" id="16_kkhlb"]
-[ext_resource type="Texture2D" uid="uid://rarpkbbegum1" path="res://img/fo.png" id="17_2d36p"]
-[ext_resource type="Texture2D" uid="uid://dfml8mv6rwbja" path="res://img/gb.png" id="19_a8jnh"]
-[ext_resource type="Texture2D" uid="uid://disexk180dfuw" path="res://img/gg.png" id="20_37f6p"]
-[ext_resource type="Texture2D" uid="uid://ca2pa58iw8l8p" path="res://img/gi.png" id="21_yfqju"]
-[ext_resource type="Texture2D" uid="uid://dogunuhn4n6bm" path="res://img/gr.png" id="22_ug7p5"]
-[ext_resource type="Texture2D" uid="uid://tbmyhgkysg46" path="res://img/hr.png" id="23_m3wmm"]
-[ext_resource type="Texture2D" uid="uid://dthflw0i71imu" path="res://img/hu.png" id="24_ge2ls"]
-[ext_resource type="Texture2D" uid="uid://41l2edshd5ov" path="res://img/ie.png" id="25_qljd0"]
-[ext_resource type="Texture2D" uid="uid://b22k76c3wlcuv" path="res://img/im.png" id="26_m50od"]
-[ext_resource type="Texture2D" uid="uid://ckbmvvq5c63ex" path="res://img/is.png" id="27_6tb36"]
-[ext_resource type="Texture2D" uid="uid://cyow3kce30tc4" path="res://img/it.png" id="28_18edc"]
-[ext_resource type="Texture2D" uid="uid://ca3yxmttlkdjh" path="res://img/li.png" id="29_tcq17"]
-[ext_resource type="Texture2D" uid="uid://mlue5qesxeau" path="res://img/lt.png" id="30_mgi5n"]
-[ext_resource type="Texture2D" uid="uid://dyx35sjbl5ke2" path="res://img/lu.png" id="31_tma1s"]
-[ext_resource type="Texture2D" uid="uid://ddb53oc3fhyq0" path="res://img/lv.png" id="32_pf588"]
-[ext_resource type="Texture2D" uid="uid://depo2qwcd0jd3" path="res://img/mc.png" id="33_bp81y"]
-[ext_resource type="Texture2D" uid="uid://c68r778fx8c2k" path="res://img/md.png" id="34_jh0fg"]
-[ext_resource type="Texture2D" uid="uid://vgcyrn67hofi" path="res://img/me.png" id="35_4vjpx"]
-[ext_resource type="Texture2D" uid="uid://cvjb18412mbha" path="res://img/mk.png" id="36_26kkr"]
-[ext_resource type="Texture2D" uid="uid://bkbj73wn60pse" path="res://img/mt.png" id="37_ax4u7"]
-[ext_resource type="Texture2D" uid="uid://ba1tvy4q4mod8" path="res://img/nl.png" id="38_s1xq6"]
-[ext_resource type="Texture2D" uid="uid://bg2jag0js6gs6" path="res://img/no.png" id="39_ljylk"]
-[ext_resource type="Texture2D" uid="uid://bi0ykhf7qpfg1" path="res://img/pl.png" id="40_b7ium"]
-[ext_resource type="Texture2D" uid="uid://f2ptn8405284" path="res://img/pt.png" id="41_kylnq"]
-[ext_resource type="Texture2D" uid="uid://ccbinvyjl5vbv" path="res://img/ro.png" id="42_76kib"]
-[ext_resource type="Texture2D" uid="uid://b1ut850he57ey" path="res://img/rs.png" id="43_cnaxx"]
-[ext_resource type="Texture2D" uid="uid://b78nshomiv8bw" path="res://img/si.png" id="45_0h6dx"]
-[ext_resource type="Texture2D" uid="uid://b8ihj3y182ajm" path="res://img/sj.png" id="46_2hxkp"]
-[ext_resource type="Texture2D" uid="uid://df0ssosgh32ah" path="res://img/sk.png" id="47_oyd7x"]
-[ext_resource type="Texture2D" uid="uid://dqn8urhakffvr" path="res://img/sm.png" id="48_x0ipb"]
-[ext_resource type="Texture2D" uid="uid://1omhnaufdbor" path="res://img/ua.png" id="49_viw6f"]
-[ext_resource type="Texture2D" uid="uid://blhxrsah3xwie" path="res://img/va.png" id="50_xelaf"]
 
 [sub_resource type="Resource" id="Resource_adcdf"]
 script = ExtResource("1_pftdq")
 en_name = "andorra"
 fr_name = "andorre"
 country_code = "ad"
-image = ExtResource("2_6xw2e")
 path = "img/ad.png"
 
 [sub_resource type="Resource" id="Resource_bqm83"]
@@ -65,7 +15,6 @@ script = ExtResource("1_pftdq")
 en_name = "albania"
 fr_name = "albanie"
 country_code = "al"
-image = ExtResource("3_wnm0d")
 path = "img/al.png"
 
 [sub_resource type="Resource" id="Resource_4kerw"]
@@ -73,7 +22,6 @@ script = ExtResource("1_pftdq")
 en_name = "austria"
 fr_name = "autriche"
 country_code = "at"
-image = ExtResource("4_ajrls")
 path = "img/at.png"
 
 [sub_resource type="Resource" id="Resource_a1cuw"]
@@ -81,7 +29,6 @@ script = ExtResource("1_pftdq")
 en_name = "aland"
 fr_name = "åland "
 country_code = "ax"
-image = ExtResource("5_fc1om")
 path = "img/ax.png"
 
 [sub_resource type="Resource" id="Resource_01jaa"]
@@ -89,7 +36,6 @@ script = ExtResource("1_pftdq")
 en_name = "bosnia and herzegovina"
 fr_name = "bosnie-herzégovine"
 country_code = "ba"
-image = ExtResource("6_t66uc")
 path = "img/ba.png"
 
 [sub_resource type="Resource" id="Resource_k0gm8"]
@@ -97,7 +43,6 @@ script = ExtResource("1_pftdq")
 en_name = "belgium"
 fr_name = "belgique"
 country_code = "be"
-image = ExtResource("7_f5gi3")
 path = "img/be.png"
 
 [sub_resource type="Resource" id="Resource_5q30h"]
@@ -105,7 +50,6 @@ script = ExtResource("1_pftdq")
 en_name = "bulgaria"
 fr_name = "bulgarie"
 country_code = "bg"
-image = ExtResource("8_wttjl")
 path = "img/bg.png"
 
 [sub_resource type="Resource" id="Resource_fl5b4"]
@@ -113,7 +57,6 @@ script = ExtResource("1_pftdq")
 en_name = "belarus"
 fr_name = "biélorussie"
 country_code = "by"
-image = ExtResource("9_54aa3")
 path = "img/by.png"
 
 [sub_resource type="Resource" id="Resource_ebajd"]
@@ -121,7 +64,6 @@ script = ExtResource("1_pftdq")
 en_name = "switzerland"
 fr_name = "suisse"
 country_code = "ch"
-image = ExtResource("10_27gcy")
 path = "img/ch.png"
 
 [sub_resource type="Resource" id="Resource_jxo82"]
@@ -129,7 +71,6 @@ script = ExtResource("1_pftdq")
 en_name = "czech republic"
 fr_name = "tchéquie"
 country_code = "cz"
-image = ExtResource("11_b83rf")
 path = "img/cz.png"
 
 [sub_resource type="Resource" id="Resource_5h17v"]
@@ -137,7 +78,6 @@ script = ExtResource("1_pftdq")
 en_name = "germany"
 fr_name = "Allemagne"
 country_code = "de"
-image = ExtResource("12_8rfe7")
 path = "img/de.png"
 
 [sub_resource type="Resource" id="Resource_lv6xm"]
@@ -145,7 +85,6 @@ script = ExtResource("1_pftdq")
 en_name = "denmark"
 fr_name = "danemark"
 country_code = "dk"
-image = ExtResource("13_pmeu5")
 path = "img/dk.png"
 
 [sub_resource type="Resource" id="Resource_c6is8"]
@@ -153,7 +92,6 @@ script = ExtResource("1_pftdq")
 en_name = "estonia"
 fr_name = "estonie"
 country_code = "ee"
-image = ExtResource("14_vs5jp")
 path = "img/ee.png"
 
 [sub_resource type="Resource" id="Resource_82hyj"]
@@ -161,7 +99,6 @@ script = ExtResource("1_pftdq")
 en_name = "spain"
 fr_name = "espagne"
 country_code = "es"
-image = ExtResource("15_goeqt")
 path = "img/es.png"
 
 [sub_resource type="Resource" id="Resource_xxumx"]
@@ -169,7 +106,6 @@ script = ExtResource("1_pftdq")
 en_name = "finland"
 fr_name = "finlande"
 country_code = "fi"
-image = ExtResource("16_kkhlb")
 path = "img/fi.png"
 
 [sub_resource type="Resource" id="Resource_6nl0m"]
@@ -177,7 +113,6 @@ script = ExtResource("1_pftdq")
 en_name = "faroe islands"
 fr_name = "iles féroé"
 country_code = "fo"
-image = ExtResource("17_2d36p")
 path = "img/fo.png"
 
 [sub_resource type="Resource" id="Resource_vjmwb"]
@@ -185,7 +120,6 @@ script = ExtResource("1_pftdq")
 en_name = "france"
 fr_name = "france"
 country_code = "fr"
-image = ExtResource("2_w1n6r")
 path = "img/fr.png"
 
 [sub_resource type="Resource" id="Resource_58rbk"]
@@ -193,7 +127,6 @@ script = ExtResource("1_pftdq")
 en_name = "united kingdom"
 fr_name = "royaume-uni"
 country_code = "gb"
-image = ExtResource("19_a8jnh")
 path = "img/gb.png"
 
 [sub_resource type="Resource" id="Resource_64gar"]
@@ -201,7 +134,6 @@ script = ExtResource("1_pftdq")
 en_name = " bailiwick of guernsey"
 fr_name = "bailliage de guernesey"
 country_code = "gg"
-image = ExtResource("20_37f6p")
 path = "img/gg.png"
 
 [sub_resource type="Resource" id="Resource_gpxcj"]
@@ -209,7 +141,6 @@ script = ExtResource("1_pftdq")
 en_name = "gibraltar"
 fr_name = "gibraltar"
 country_code = "gi"
-image = ExtResource("21_yfqju")
 path = "img/gi.png"
 
 [sub_resource type="Resource" id="Resource_tpp4j"]
@@ -217,7 +148,6 @@ script = ExtResource("1_pftdq")
 en_name = "greece"
 fr_name = "grêce"
 country_code = "gr"
-image = ExtResource("22_ug7p5")
 path = "img/gr.png"
 
 [sub_resource type="Resource" id="Resource_apyxg"]
@@ -225,7 +155,6 @@ script = ExtResource("1_pftdq")
 en_name = "croatia"
 fr_name = "croatie"
 country_code = "hr"
-image = ExtResource("23_m3wmm")
 path = "img/hr.png"
 
 [sub_resource type="Resource" id="Resource_hlfq8"]
@@ -233,7 +162,6 @@ script = ExtResource("1_pftdq")
 en_name = "hungary"
 fr_name = "hongrie"
 country_code = "hu"
-image = ExtResource("24_ge2ls")
 path = "img/hu.png"
 
 [sub_resource type="Resource" id="Resource_sppvv"]
@@ -241,7 +169,6 @@ script = ExtResource("1_pftdq")
 en_name = "ireland"
 fr_name = "irelande"
 country_code = "ie"
-image = ExtResource("25_qljd0")
 path = "img/ie.png"
 
 [sub_resource type="Resource" id="Resource_y18vw"]
@@ -249,7 +176,6 @@ script = ExtResource("1_pftdq")
 en_name = "isle of man"
 fr_name = "ile de man"
 country_code = "im"
-image = ExtResource("26_m50od")
 path = "img/im.png"
 
 [sub_resource type="Resource" id="Resource_ef14o"]
@@ -257,7 +183,6 @@ script = ExtResource("1_pftdq")
 en_name = "iceland"
 fr_name = "islande"
 country_code = "is"
-image = ExtResource("27_6tb36")
 path = "img/is.png"
 
 [sub_resource type="Resource" id="Resource_m5y4l"]
@@ -265,7 +190,6 @@ script = ExtResource("1_pftdq")
 en_name = "italy"
 fr_name = "italie"
 country_code = "it"
-image = ExtResource("28_18edc")
 path = "img/it.png"
 
 [sub_resource type="Resource" id="Resource_pi6hl"]
@@ -273,7 +197,6 @@ script = ExtResource("1_pftdq")
 en_name = "liechtenstein"
 fr_name = "liechtenstein"
 country_code = "li"
-image = ExtResource("29_tcq17")
 path = "img/li.png"
 
 [sub_resource type="Resource" id="Resource_f2i3o"]
@@ -281,7 +204,6 @@ script = ExtResource("1_pftdq")
 en_name = "lithuania"
 fr_name = "lituanie"
 country_code = "lt"
-image = ExtResource("30_mgi5n")
 path = "img/lt.png"
 
 [sub_resource type="Resource" id="Resource_fflym"]
@@ -289,7 +211,6 @@ script = ExtResource("1_pftdq")
 en_name = "luxembourg"
 fr_name = "luxembourg"
 country_code = "lu"
-image = ExtResource("31_tma1s")
 path = "img/lu.png"
 
 [sub_resource type="Resource" id="Resource_35ywq"]
@@ -297,7 +218,6 @@ script = ExtResource("1_pftdq")
 en_name = "latvia"
 fr_name = "lettonie"
 country_code = "lv"
-image = ExtResource("32_pf588")
 path = "img/lv.png"
 
 [sub_resource type="Resource" id="Resource_agyno"]
@@ -305,7 +225,6 @@ script = ExtResource("1_pftdq")
 en_name = "monaco"
 fr_name = "monaco"
 country_code = "mc"
-image = ExtResource("33_bp81y")
 path = "img/mc.png"
 
 [sub_resource type="Resource" id="Resource_6gklj"]
@@ -313,7 +232,6 @@ script = ExtResource("1_pftdq")
 en_name = "moldava"
 fr_name = "moldavie"
 country_code = "md"
-image = ExtResource("34_jh0fg")
 path = "img/md.png"
 
 [sub_resource type="Resource" id="Resource_mf25d"]
@@ -321,7 +239,6 @@ script = ExtResource("1_pftdq")
 en_name = "montenegro"
 fr_name = "monténégro"
 country_code = "me"
-image = ExtResource("35_4vjpx")
 path = "img/me.png"
 
 [sub_resource type="Resource" id="Resource_0olmb"]
@@ -329,7 +246,6 @@ script = ExtResource("1_pftdq")
 en_name = "north macedonia"
 fr_name = "macédoine du nord"
 country_code = "mk"
-image = ExtResource("36_26kkr")
 path = "img/mk.png"
 
 [sub_resource type="Resource" id="Resource_w2u6w"]
@@ -337,7 +253,6 @@ script = ExtResource("1_pftdq")
 en_name = "malta"
 fr_name = "malte"
 country_code = "mt"
-image = ExtResource("37_ax4u7")
 path = "img/mt.png"
 
 [sub_resource type="Resource" id="Resource_8tk4l"]
@@ -345,7 +260,6 @@ script = ExtResource("1_pftdq")
 en_name = "netherlands"
 fr_name = "pays-bas"
 country_code = "nl"
-image = ExtResource("38_s1xq6")
 path = "img/nl.png"
 
 [sub_resource type="Resource" id="Resource_e7v15"]
@@ -353,7 +267,6 @@ script = ExtResource("1_pftdq")
 en_name = "norway"
 fr_name = "norvège"
 country_code = "no"
-image = ExtResource("39_ljylk")
 path = "img/no.png"
 
 [sub_resource type="Resource" id="Resource_b38p3"]
@@ -361,7 +274,6 @@ script = ExtResource("1_pftdq")
 en_name = "poland"
 fr_name = "pologne"
 country_code = "pl"
-image = ExtResource("40_b7ium")
 path = "img/pl.png"
 
 [sub_resource type="Resource" id="Resource_mpo6l"]
@@ -369,7 +281,6 @@ script = ExtResource("1_pftdq")
 en_name = "portugal"
 fr_name = "portugal"
 country_code = "pt"
-image = ExtResource("41_kylnq")
 path = "img/pt.png"
 
 [sub_resource type="Resource" id="Resource_u5ct2"]
@@ -377,7 +288,6 @@ script = ExtResource("1_pftdq")
 en_name = "romania"
 fr_name = "roumanie"
 country_code = "ro"
-image = ExtResource("42_76kib")
 path = "img/ro.png"
 
 [sub_resource type="Resource" id="Resource_wf8x6"]
@@ -385,7 +295,6 @@ script = ExtResource("1_pftdq")
 en_name = "serbia"
 fr_name = "serbie"
 country_code = "rs"
-image = ExtResource("43_cnaxx")
 path = "img/rs.png"
 
 [sub_resource type="Resource" id="Resource_k1f3c"]
@@ -393,7 +302,6 @@ script = ExtResource("1_pftdq")
 en_name = "sweden"
 fr_name = "suède"
 country_code = "se"
-image = ExtResource("3_3qv0i")
 path = "img/se.png"
 
 [sub_resource type="Resource" id="Resource_s283u"]
@@ -401,7 +309,6 @@ script = ExtResource("1_pftdq")
 en_name = "slovenia"
 fr_name = "slovénie"
 country_code = "si"
-image = ExtResource("45_0h6dx")
 path = "img/si.png"
 
 [sub_resource type="Resource" id="Resource_ficl3"]
@@ -409,7 +316,6 @@ script = ExtResource("1_pftdq")
 en_name = "svalbard"
 fr_name = "svalbard"
 country_code = "sj"
-image = ExtResource("46_2hxkp")
 path = "img/sj.png"
 
 [sub_resource type="Resource" id="Resource_dvplc"]
@@ -417,7 +323,6 @@ script = ExtResource("1_pftdq")
 en_name = "slovakia"
 fr_name = "slovaquie"
 country_code = "sk"
-image = ExtResource("47_oyd7x")
 path = "img/sk.png"
 
 [sub_resource type="Resource" id="Resource_5r75e"]
@@ -425,7 +330,6 @@ script = ExtResource("1_pftdq")
 en_name = "san marino"
 fr_name = "saint marin"
 country_code = "sm"
-image = ExtResource("48_x0ipb")
 path = "img/sm.png"
 
 [sub_resource type="Resource" id="Resource_84phi"]
@@ -433,7 +337,6 @@ script = ExtResource("1_pftdq")
 en_name = "ukraine"
 fr_name = "ukraine"
 country_code = "ua"
-image = ExtResource("49_viw6f")
 path = "img/ua.png"
 
 [sub_resource type="Resource" id="Resource_bvycf"]
@@ -441,7 +344,6 @@ script = ExtResource("1_pftdq")
 en_name = "vatican city"
 fr_name = "vatican"
 country_code = "va"
-image = ExtResource("50_xelaf")
 path = "img/va.png"
 
 [resource]
