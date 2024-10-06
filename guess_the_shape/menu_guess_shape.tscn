@@ -175,4 +175,5 @@ theme_override_font_sizes/font_size = 80
 text = "##"
 
 [connection signal="pressed" from="HUD/Start" to="." method="start_game"]
+[connection signal="pressed" from="HUD/Back" to="." method="_on_back_pressed"]
 [connection signal="pressed" from="Score/Close" to="." method="_on_close_pressed"]

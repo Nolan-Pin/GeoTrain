@@ -1,5 +1,7 @@
 extends Node
 
+signal exit
+
 var game_scene: PackedScene
 var game_instance: CountryShape
 # Called when the node enters the scene tree for the first time.
@@ -27,3 +29,7 @@ func game_ended(score: int, total: int) -> void:
 func _on_close_pressed() -> void:
 	$Score.hide()
 	$HUD.show()
+
+
+func _on_back_pressed() -> void:
+	exit.emit()
