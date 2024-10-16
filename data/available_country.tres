@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="AvailableCountry" load_steps=52 format=3 uid="uid://bsn8rmnr5dk7l"]
+[gd_resource type="Resource" script_class="AvailableCountry" load_steps=75 format=3 uid="uid://bsn8rmnr5dk7l"]
 
 [ext_resource type="Script" path="res://data/available_country.gd" id="1_7ly4u"]
 [ext_resource type="Script" path="res://data/country_attributes.gd" id="1_pftdq"]
@@ -9,6 +9,27 @@ en_name = "andorra"
 fr_name = "andorre"
 country_code = "ad"
 path = "img/ad.png"
+
+[sub_resource type="Resource" id="Resource_6eh62"]
+script = ExtResource("1_pftdq")
+en_name = "united arab emirates"
+fr_name = "émirats arabes unis"
+country_code = "ae"
+path = "img/ae.png"
+
+[sub_resource type="Resource" id="Resource_hebf5"]
+script = ExtResource("1_pftdq")
+en_name = "afghanistan"
+fr_name = "afghanistan"
+country_code = "af"
+path = "img/af.png"
+
+[sub_resource type="Resource" id="Resource_ebajd"]
+script = ExtResource("1_pftdq")
+en_name = "switzerland"
+fr_name = "suisse"
+country_code = "ch"
+path = "img/ch.png"
 
 [sub_resource type="Resource" id="Resource_bqm83"]
 script = ExtResource("1_pftdq")
@@ -58,13 +79,6 @@ en_name = "belarus"
 fr_name = "biélorussie"
 country_code = "by"
 path = "img/by.png"
-
-[sub_resource type="Resource" id="Resource_ebajd"]
-script = ExtResource("1_pftdq")
-en_name = "switzerland"
-fr_name = "suisse"
-country_code = "ch"
-path = "img/ch.png"
 
 [sub_resource type="Resource" id="Resource_jxo82"]
 script = ExtResource("1_pftdq")
@@ -346,7 +360,154 @@ fr_name = "vatican"
 country_code = "va"
 path = "img/va.png"
 
+[sub_resource type="Resource" id="Resource_rbrdp"]
+script = ExtResource("1_pftdq")
+en_name = "antigua and barbuda"
+fr_name = "antigua-et-barbuda"
+country_code = "ag"
+path = "img/ag.png"
+
+[sub_resource type="Resource" id="Resource_tkger"]
+script = ExtResource("1_pftdq")
+en_name = "anguilla"
+fr_name = "anguilla"
+country_code = "ai"
+path = "img/ai.png"
+
+[sub_resource type="Resource" id="Resource_bfu4c"]
+script = ExtResource("1_pftdq")
+en_name = "armenia"
+fr_name = "armenia"
+country_code = "am"
+path = "img/am.png"
+
+[sub_resource type="Resource" id="Resource_52kyk"]
+script = ExtResource("1_pftdq")
+en_name = "angola"
+fr_name = "angola"
+country_code = "ao"
+path = "img/ao.png"
+
+[sub_resource type="Resource" id="Resource_ufgqe"]
+script = ExtResource("1_pftdq")
+en_name = "antarctica"
+fr_name = "antarctique"
+country_code = "aq"
+path = "img/aq.png"
+
+[sub_resource type="Resource" id="Resource_ehkl1"]
+script = ExtResource("1_pftdq")
+en_name = "argentina"
+fr_name = "argentine"
+country_code = "ar"
+path = "img/ar.png"
+
+[sub_resource type="Resource" id="Resource_urblg"]
+script = ExtResource("1_pftdq")
+en_name = "american samoa"
+fr_name = "samoa américaines"
+country_code = "as"
+path = "img/as.png"
+
+[sub_resource type="Resource" id="Resource_0f6h7"]
+script = ExtResource("1_pftdq")
+en_name = "australia"
+fr_name = "australie"
+country_code = "au"
+path = "img/au.png"
+
+[sub_resource type="Resource" id="Resource_yjxx7"]
+script = ExtResource("1_pftdq")
+en_name = "aruba"
+fr_name = "aruba"
+country_code = "aw"
+path = "img/aw.png"
+
+[sub_resource type="Resource" id="Resource_8f0bb"]
+script = ExtResource("1_pftdq")
+en_name = "azerbaijan"
+fr_name = "azerbaïdjan"
+country_code = "az"
+path = "img/az.png"
+
+[sub_resource type="Resource" id="Resource_wp3lh"]
+script = ExtResource("1_pftdq")
+en_name = "barbados"
+fr_name = "barbade"
+country_code = "bb"
+path = "img/bb.png"
+
+[sub_resource type="Resource" id="Resource_rrer7"]
+script = ExtResource("1_pftdq")
+en_name = "bangladesh"
+fr_name = "bangladesh"
+country_code = "bd"
+path = "img/bd/png"
+
+[sub_resource type="Resource" id="Resource_78mni"]
+script = ExtResource("1_pftdq")
+en_name = "burkina faso"
+fr_name = "burkina faso"
+country_code = "bf"
+path = "img/bf.png"
+
+[sub_resource type="Resource" id="Resource_bx8s6"]
+script = ExtResource("1_pftdq")
+en_name = "bahrain"
+fr_name = "bahreïn"
+country_code = "bh"
+path = "img/bh.png"
+
+[sub_resource type="Resource" id="Resource_ef862"]
+script = ExtResource("1_pftdq")
+en_name = "burundi"
+fr_name = "burundi"
+country_code = "bi"
+path = "img/bi.png"
+
+[sub_resource type="Resource" id="Resource_bouw6"]
+script = ExtResource("1_pftdq")
+en_name = "Benin"
+fr_name = "bénin"
+country_code = "bj"
+path = "img/bj.png"
+
+[sub_resource type="Resource" id="Resource_lulii"]
+script = ExtResource("1_pftdq")
+en_name = "saint barthélemy"
+fr_name = "saint-barthélemy"
+country_code = "bl"
+path = "img/bl.png"
+
+[sub_resource type="Resource" id="Resource_mwnn5"]
+script = ExtResource("1_pftdq")
+en_name = "bermuda"
+fr_name = "bermudes"
+country_code = "bm"
+path = "img/bm.png"
+
+[sub_resource type="Resource" id="Resource_2baw5"]
+script = ExtResource("1_pftdq")
+en_name = "brunei"
+fr_name = "brunei"
+country_code = "bn"
+path = "img/bn.png"
+
+[sub_resource type="Resource" id="Resource_vef4y"]
+script = ExtResource("1_pftdq")
+en_name = "bolivia"
+fr_name = "bolivie"
+country_code = "bo"
+path = "img/bo.png"
+
+[sub_resource type="Resource" id="Resource_pps0u"]
+script = ExtResource("1_pftdq")
+en_name = ""
+fr_name = ""
+country_code = ""
+path = ""
+
 [resource]
 script = ExtResource("1_7ly4u")
 prefix_path = "res://img/"
-available = Array[ExtResource("1_pftdq")]([SubResource("Resource_adcdf"), SubResource("Resource_bqm83"), SubResource("Resource_4kerw"), SubResource("Resource_a1cuw"), SubResource("Resource_01jaa"), SubResource("Resource_k0gm8"), SubResource("Resource_5q30h"), SubResource("Resource_fl5b4"), SubResource("Resource_ebajd"), SubResource("Resource_jxo82"), SubResource("Resource_5h17v"), SubResource("Resource_lv6xm"), SubResource("Resource_c6is8"), SubResource("Resource_82hyj"), SubResource("Resource_xxumx"), SubResource("Resource_6nl0m"), SubResource("Resource_vjmwb"), SubResource("Resource_58rbk"), SubResource("Resource_64gar"), SubResource("Resource_gpxcj"), SubResource("Resource_tpp4j"), SubResource("Resource_apyxg"), SubResource("Resource_hlfq8"), SubResource("Resource_sppvv"), SubResource("Resource_y18vw"), SubResource("Resource_ef14o"), SubResource("Resource_m5y4l"), SubResource("Resource_pi6hl"), SubResource("Resource_f2i3o"), SubResource("Resource_fflym"), SubResource("Resource_35ywq"), SubResource("Resource_agyno"), SubResource("Resource_6gklj"), SubResource("Resource_mf25d"), SubResource("Resource_0olmb"), SubResource("Resource_w2u6w"), SubResource("Resource_8tk4l"), SubResource("Resource_e7v15"), SubResource("Resource_b38p3"), SubResource("Resource_mpo6l"), SubResource("Resource_u5ct2"), SubResource("Resource_wf8x6"), SubResource("Resource_k1f3c"), SubResource("Resource_s283u"), SubResource("Resource_ficl3"), SubResource("Resource_dvplc"), SubResource("Resource_5r75e"), SubResource("Resource_84phi"), SubResource("Resource_bvycf")])
+available = Array[ExtResource("1_pftdq")]([SubResource("Resource_adcdf"), SubResource("Resource_6eh62"), SubResource("Resource_hebf5"), SubResource("Resource_ebajd"), SubResource("Resource_bqm83"), SubResource("Resource_4kerw"), SubResource("Resource_a1cuw"), SubResource("Resource_01jaa"), SubResource("Resource_k0gm8"), SubResource("Resource_5q30h"), SubResource("Resource_fl5b4"), SubResource("Resource_jxo82"), SubResource("Resource_5h17v"), SubResource("Resource_lv6xm"), SubResource("Resource_c6is8"), SubResource("Resource_82hyj"), SubResource("Resource_xxumx"), SubResource("Resource_6nl0m"), SubResource("Resource_vjmwb"), SubResource("Resource_58rbk"), SubResource("Resource_64gar"), SubResource("Resource_gpxcj"), SubResource("Resource_tpp4j"), SubResource("Resource_apyxg"), SubResource("Resource_hlfq8"), SubResource("Resource_sppvv"), SubResource("Resource_y18vw"), SubResource("Resource_ef14o"), SubResource("Resource_m5y4l"), SubResource("Resource_pi6hl"), SubResource("Resource_f2i3o"), SubResource("Resource_fflym"), SubResource("Resource_35ywq"), SubResource("Resource_agyno"), SubResource("Resource_6gklj"), SubResource("Resource_mf25d"), SubResource("Resource_0olmb"), SubResource("Resource_w2u6w"), SubResource("Resource_8tk4l"), SubResource("Resource_e7v15"), SubResource("Resource_b38p3"), SubResource("Resource_mpo6l"), SubResource("Resource_u5ct2"), SubResource("Resource_wf8x6"), SubResource("Resource_k1f3c"), SubResource("Resource_s283u"), SubResource("Resource_ficl3"), SubResource("Resource_dvplc"), SubResource("Resource_5r75e"), SubResource("Resource_84phi"), SubResource("Resource_bvycf"), SubResource("Resource_rbrdp"), SubResource("Resource_tkger"), SubResource("Resource_bfu4c"), SubResource("Resource_52kyk"), SubResource("Resource_ufgqe"), SubResource("Resource_ehkl1"), SubResource("Resource_urblg"), SubResource("Resource_0f6h7"), SubResource("Resource_yjxx7"), SubResource("Resource_8f0bb"), SubResource("Resource_wp3lh"), SubResource("Resource_rrer7"), SubResource("Resource_78mni"), SubResource("Resource_bx8s6"), SubResource("Resource_ef862"), SubResource("Resource_bouw6"), SubResource("Resource_lulii"), SubResource("Resource_mwnn5"), SubResource("Resource_2baw5"), SubResource("Resource_vef4y"), SubResource("Resource_pps0u")])
